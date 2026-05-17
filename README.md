@@ -11,8 +11,8 @@ All settings live in `config.json` — no code changes needed.
 
 ```bash
 npm install
-cp .env.example .env
-cp config.example.json config.json
+cp .env
+cp config.json
 ```
 
 Edit `.env` with your Gmail credentials:
