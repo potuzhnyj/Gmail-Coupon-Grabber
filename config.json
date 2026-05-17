@@ -1,0 +1,30 @@
+{
+  "imap": {
+    "host": "imap.gmail.com",
+    "port": 993
+  },
+
+  "search": {
+    "from": "noreply@example.com",
+    "mailbox": "INBOX",
+    "daysBack": 7,
+    "limit": 5
+  },
+
+  "products": {
+    "Product A": ["keyword1", "keyword2"],
+    "Product B": ["keyword3", "keyword4"]
+  },
+
+  "subgroups": ["keyword1", "keyword2"],
+
+  "links": {
+    "onlyFromDomains": ["click.example.com"],
+    "extractParams": ["campaign", "campaignMarker"]
+  },
+
+  "output": {
+    "htmlFile": "report.html",
+    "groupByProduct": true
+  }
+}
